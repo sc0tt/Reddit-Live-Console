@@ -8,6 +8,7 @@ TPPConsole is a python script that streams updates Twitch Plays Pokemon reddit l
 
 Requirements
 ------------
+Python 2.7 (Python 3 to come soon)
 python-requests `pip install requests`
 
 Usage
