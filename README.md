@@ -20,3 +20,7 @@ Optionally,
 `python tpp.py --important`
 
 For only "important" updates.
+
+TODO
+----
+1. Remove `python-requests` requirement so there are no dependencies
