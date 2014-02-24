@@ -43,5 +43,7 @@ while True:
       print("Checking for update in %ss.\r" % (_timeout - i), end="")
       sys.stdout.flush()
       time.sleep(1)
+  except ValueError:
+    pass
   except KeyboardInterrupt:
     break
