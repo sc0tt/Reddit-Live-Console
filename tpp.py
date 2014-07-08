@@ -17,7 +17,7 @@ _parser = argparse.ArgumentParser(description="Live Twitch Plays Pokemon updates
 _parser.add_argument("--important", action="store_true")
 _args = _parser.parse_args()
 
-_api_url = "http://api.reddit.com/live/ai4lsxxr2yi6hnnyciytwaiufu"
+_api_url = "http://api.reddit.com/live/t62j38i5dw54"
 _headers = {"User-Agent": "TTPConsole/1.1 by sc00ty"}
 _timeout = 60 #1 Minute
 _last_id = ""
