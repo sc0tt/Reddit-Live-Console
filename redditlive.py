@@ -5,7 +5,7 @@ import sys
 import re
 
 _headers = {"User-Agent": "TTPConsole/1.1 by sc00ty"}
-_timeout = 60 #1 Minute
+_timeout = 60  # 1 Minute
 
 
 def main(live_thread):
@@ -25,7 +25,7 @@ def main(live_thread):
         print("%s\n" % (body_text,))
 
       #Progress towards next update.
-      for i in range (0, _timeout):
+      for i in range(0, _timeout):
         print("Checking for update in %ss.\r" % (_timeout - i), end="")
         sys.stdout.flush()
         time.sleep(1)
@@ -34,6 +34,7 @@ def main(live_thread):
     #except Exception:
     #  print("Encountered an error while retrieving data. Exiting...")
     #  break
+
 
 def get_live_thread_url(thread_id):
   id_re = re.search("(/live/)?([A-z0-9]+)$", thread_id).groups()

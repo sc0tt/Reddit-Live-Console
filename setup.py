@@ -10,7 +10,7 @@ setup(
     url='https://github.com/sc0tt/Reddit-Live-Console',
     license='LICENSE.txt',
     description='Reddit live threads in your console.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         "requests >= 2.3.0"
     ],
